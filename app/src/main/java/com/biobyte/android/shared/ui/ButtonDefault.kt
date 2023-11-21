@@ -1,4 +1,4 @@
-package com.cajasullana.biobyte.shared.ui
+package com.biobyte.android.shared.ui
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -10,8 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.cajasullana.biobyte.ui.theme.GreyDisableButton
-import com.cajasullana.biobyte.ui.theme.GreySoft
+import com.biobyte.android.ui.theme.GreyDisableButton
+import com.biobyte.android.ui.theme.GreySoft
 
 @Composable
 fun ButtonDefault(text: String, color: Color, enabled: Boolean, handleClick: () -> Unit) {

@@ -1,4 +1,4 @@
-package com.cajasullana.biobyte.loginBioByte.ui
+package com.biobyte.android.loginBioByte.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -23,12 +23,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color.Companion.White
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.cajasullana.biobyte.R
-import com.cajasullana.biobyte.shared.ui.ButtonDefault
-import com.cajasullana.biobyte.ui.theme.CreamPrincipalColor
-import com.cajasullana.biobyte.ui.theme.GreenLowPrincipalColor
-import com.cajasullana.biobyte.ui.theme.GreenPrincipalColor
-import com.cajasullana.biobyte.ui.theme.GreyLabel
+import com.biobyte.android.R
+import com.biobyte.android.ui.theme.CreamPrincipalColor
+import com.biobyte.android.ui.theme.GreenLowPrincipalColor
+import com.biobyte.android.ui.theme.GreenPrincipalColor
+import com.biobyte.android.ui.theme.GreyLabel
+import com.biobyte.android.shared.ui.ButtonDefault
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LoginBioByte() {

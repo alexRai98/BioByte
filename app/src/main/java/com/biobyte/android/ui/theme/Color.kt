@@ -1,4 +1,4 @@
-package com.cajasullana.biobyte.ui.theme
+package com.biobyte.android.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.cajasullana.biobyte
+package com.biobyte.android
 
 import org.junit.Test
 
