@@ -1,6 +1,9 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    // Dagger hilt
+//    kotlin("kapt")
+//    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -49,7 +52,21 @@ android {
     }
 }
 
+val navVersion = "2.5.3"
+
 dependencies {
+    // navigation
+    implementation("androidx.navigation:navigation-compose:$navVersion")
+
+//    // Retrofit
+//    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+//    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+//    // Logging requests
+//    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+
+    // Dagger Hilt
+//    implementation("com.google.dagger:hilt-android:2.44")
+//    kapt("com.google.dagger:hilt-android-compiler:2.44")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
@@ -67,3 +84,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+
+// Allow references to generated code
+//kapt {
+//    correctErrorTypes = true
+//}
