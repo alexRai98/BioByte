@@ -50,7 +50,7 @@ fun LoginBioByte() {
                 Icon(
                     painterResource(id = R.drawable.icon_fish),
                     contentDescription = "",
-                    tint = White, modifier = Modifier.size(55.dp)
+                    tint = White, modifier = Modifier.size(60.dp)
                 )
             }
             Spacer(modifier = Modifier.height(40.dp))

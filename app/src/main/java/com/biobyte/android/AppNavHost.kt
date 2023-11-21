@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.biobyte.android.application.modal.Routes
+import com.biobyte.android.loginBioByte.ui.LoginBioByte
 import com.biobyte.android.splashScreen.SplashScreen
 
 @Composable
@@ -14,5 +15,6 @@ fun AppNavHost(navigationController: NavHostController){
         startDestination = Routes.SplashScreen.route,
     ) {
         composable(Routes.SplashScreen.route) { SplashScreen(navigationController) }
+        composable(Routes.LoginScreen.route) { LoginBioByte() }
     }
 }

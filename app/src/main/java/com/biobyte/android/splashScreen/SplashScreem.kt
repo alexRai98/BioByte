@@ -22,6 +22,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.biobyte.android.R
+import com.biobyte.android.application.modal.Routes
 import kotlinx.coroutines.delay
 
 @Composable
@@ -40,7 +41,7 @@ fun SplashScreen(
         startAnimation = true
         delay(2000)
         navController.popBackStack()
-//        navController.navigate(Routes.LoginScreen.route)
+        navController.navigate(Routes.LoginScreen.route)
     }
 
     Box(
