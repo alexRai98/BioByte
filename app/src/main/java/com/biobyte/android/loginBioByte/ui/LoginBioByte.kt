@@ -1,5 +1,6 @@
 package com.biobyte.android.loginBioByte.ui
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,6 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color.Companion.White
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.biobyte.android.R
 import com.biobyte.android.ui.theme.CreamPrincipalColor
@@ -29,30 +31,26 @@ import com.biobyte.android.ui.theme.GreenLowPrincipalColor
 import com.biobyte.android.ui.theme.GreenPrincipalColor
 import com.biobyte.android.ui.theme.GreyLabel
 import com.biobyte.android.shared.ui.ButtonDefault
+
+@Preview
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LoginBioByte() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = CreamPrincipalColor), verticalArrangement = Arrangement.Center
+            .background(color = White), verticalArrangement = Arrangement.Center
     ) {
         Column(
             modifier = Modifier
-                .padding(horizontal = 40.dp).offset(y = -30.dp), horizontalAlignment = Alignment.CenterHorizontally
+                .padding(horizontal = 40.dp)
+                .offset(y = -30.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Box(
-                contentAlignment = Alignment.Center,
-                modifier = Modifier
-                    .size(120.dp)
-                    .background(color = GreenPrincipalColor, RoundedCornerShape(size = 60.dp))
-            ) {
-                Icon(
-                    painterResource(id = R.drawable.icon_fish),
-                    contentDescription = "",
-                    tint = White, modifier = Modifier.size(60.dp)
-                )
-            }
+            Image(
+                painterResource(id = R.drawable.logo_bio_byte_login),
+                contentDescription = "", modifier = Modifier.size(120.dp)
+            )
             Spacer(modifier = Modifier.height(40.dp))
             OutlinedTextField(
                 value = "",
