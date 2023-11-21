@@ -1,4 +1,4 @@
-package com.cajasullana.biobyte.splashScreen
+package com.biobyte.android.splashScreen
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -21,7 +21,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.cajasullana.biobyte.R
+import com.biobyte.android.R
 import kotlinx.coroutines.delay
 
 @Composable

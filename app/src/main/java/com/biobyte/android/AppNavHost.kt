@@ -1,11 +1,11 @@
-package com.cajasullana.biobyte
+package com.biobyte.android
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.cajasullana.biobyte.application.modal.Routes
-import com.cajasullana.biobyte.splashScreen.SplashScreen
+import com.biobyte.android.application.modal.Routes
+import com.biobyte.android.splashScreen.SplashScreen
 
 @Composable
 fun AppNavHost(navigationController: NavHostController){

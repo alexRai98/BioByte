@@ -1,4 +1,4 @@
-package com.cajasullana.biobyte
+package com.biobyte.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import com.cajasullana.biobyte.ui.theme.BioByteTheme
+import com.biobyte.android.ui.theme.BioByteTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
