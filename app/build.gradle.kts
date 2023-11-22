@@ -64,6 +64,9 @@ dependencies {
 //    // Logging requests
 //    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
+    // Lottie animation
+    implementation ("com.airbnb.android:lottie-compose:6.0.0")
+
     // Dagger Hilt
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")

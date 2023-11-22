@@ -64,7 +64,7 @@ fun BioByteTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = NunitoTypography,
         content = content
     )
 }
