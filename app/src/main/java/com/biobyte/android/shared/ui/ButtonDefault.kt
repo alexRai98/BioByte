@@ -12,6 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.biobyte.android.ui.theme.GreyDisableButton
 import com.biobyte.android.ui.theme.GreySoft
+import com.biobyte.android.ui.theme.NunitoTypography
 
 @Composable
 fun ButtonDefault(text: String, color: Color, enabled: Boolean, handleClick: () -> Unit) {
@@ -28,6 +29,6 @@ fun ButtonDefault(text: String, color: Color, enabled: Boolean, handleClick: () 
             .fillMaxWidth().height(48.dp),
         shape = RoundedCornerShape(8.dp)
     ) {
-        Text(text = text)
+        Text(text = text, style = NunitoTypography.labelMedium)
     }
 }
