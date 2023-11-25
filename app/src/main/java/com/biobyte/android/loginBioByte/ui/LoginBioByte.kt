@@ -48,8 +48,8 @@ fun LoginBioByte() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(
-                painterResource(id = R.drawable.logo_bio_byte_login),
-                contentDescription = "", modifier = Modifier.size(120.dp)
+                painterResource(id = R.drawable.new_login_logo_bio_byte),
+                contentDescription = "", modifier = Modifier.size(180.dp)
             )
             Spacer(modifier = Modifier.height(40.dp))
             OutlinedTextField(

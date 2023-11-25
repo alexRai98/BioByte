@@ -59,7 +59,7 @@ fun SplashScreen(
         contentAlignment = Alignment.Center
     ) {
         Icon(
-            painter = painterResource(id = R.drawable.icon_text_bio_byte),
+            painter = painterResource(id = R.drawable.icon_splash_screen),
             contentDescription = "icon name BioByte",
             tint = Color.White,
             modifier = Modifier
