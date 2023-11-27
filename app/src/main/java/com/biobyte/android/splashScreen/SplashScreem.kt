@@ -24,7 +24,6 @@ import androidx.navigation.NavHostController
 import com.biobyte.android.R
 import com.biobyte.android.application.modal.Routes
 import kotlinx.coroutines.delay
-
 @Composable
 fun SplashScreen(
     navController: NavHostController
@@ -37,7 +36,7 @@ fun SplashScreen(
         ), label = ""
     )
 
-    LaunchedEffect(key1 = true){
+    LaunchedEffect(key1 = true) {
         startAnimation = true
         delay(2000)
         navController.popBackStack()
@@ -54,8 +53,7 @@ fun SplashScreen(
                         Color(0xFF155E63),
                     )
                 )
-            )
-        ,
+            ),
         contentAlignment = Alignment.Center
     ) {
         Icon(
